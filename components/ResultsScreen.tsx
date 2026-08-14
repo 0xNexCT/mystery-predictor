@@ -38,18 +38,25 @@ export default function ResultsScreen({ username, result }: Props) {
   }, [baseUrl, username, result]);
 
   const shareUrl = useMemo(() => {
-    const params = new URLSearchParams({
-      username,
-      score: String(result.score),
-      streak: String(result.maxStreak),
-      rank: String(result.rank),
-      weekId: result.weekId,
-    });
-    const pageUrl = `${baseUrl}/s?${params.toString()}`;
     const text = `I scored ${result.score} in Mystery Predictor this week — rank #${result.rank} of ${result.totalPlayers}. Think you can out-predict me? #MysteryPredictor`;
-    const tweet = new URLSearchParams({ text, url: pageUrl });
+    const tweet = new URLSearchParams({ text, url: `${baseUrl}/` });
     return `https://twitter.com/intent/tweet?${tweet.toString()}`;
-  }, [baseUrl, username, result]);
+  }, [baseUrl, result]);
+
+  const downloadCard = async () => {
+    try {
+      const res = await fetch(ogUrl);
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "mystery-predictor.png";
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch {
+      window.open(ogUrl, "_blank");
+    }
+  };
 
   const accuracy = result.total
     ? Math.round((result.correct / result.total) * 100)
@@ -91,14 +98,21 @@ export default function ResultsScreen({ username, result }: Props) {
         </div>
 
         <div className="mt-8 flex flex-col gap-3">
+          <button onClick={downloadCard} className="btn-primary text-center">
+            Download Image Card
+          </button>
           <a
             href={shareUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary text-center"
+            className="btn-ghost text-center"
           >
             Share on X
           </a>
+          <p className="text-xs text-[var(--muted)]">
+            Download the card and attach it to your tweet — the link shares the
+            game directly.
+          </p>
           <div className="flex gap-3">
             <Link href="/play" className="btn-ghost flex-1 text-center">
               Play Again
