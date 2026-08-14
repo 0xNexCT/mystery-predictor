@@ -103,6 +103,17 @@ export async function GET(req: Request) {
         >
           {weekId}
         </div>
+        <div
+          style={{
+            marginTop: 20,
+            fontSize: 24,
+            letterSpacing: 5,
+            textTransform: "uppercase",
+            color: "#22d3ee",
+          }}
+        >
+          You called it. Did the world agree?
+        </div>
       </div>
     ),
     {

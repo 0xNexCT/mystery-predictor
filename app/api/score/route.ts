@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { KV } from "@/lib/db";
 import { getUuidFromRequest } from "@/lib/auth";
 import { getWeekId } from "@/lib/week";
-import { QUESTIONS_BY_ID } from "@/lib/questions";
+import { QUESTIONS_BY_ID, getEffectiveAnswer } from "@/lib/questions";
 
 export const runtime = "nodejs";
 
@@ -32,7 +32,8 @@ export async function POST(req: Request) {
   for (const answer of body.answers) {
     const q = QUESTIONS_BY_ID.get(answer.questionId);
     if (!q) continue;
-    const isCorrect = q.options[answer.selectedIndex] === q.correctAnswer;
+    const isCorrect =
+      q.options[answer.selectedIndex] === (await getEffectiveAnswer(q.id));
     if (isCorrect) {
       correct++;
       streak++;

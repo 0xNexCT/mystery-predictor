@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { KV } from "@/lib/db";
 import { getUuidFromRequest } from "@/lib/auth";
 import { getWeekId } from "@/lib/week";
-import { pickSessionQuestions, SESSION_SIZE } from "@/lib/questions";
+import { pickSessionQuestions, SESSION_SIZE, getEffectiveAnswer } from "@/lib/questions";
 
 export const runtime = "nodejs";
 
@@ -26,11 +26,13 @@ export async function GET(req: Request) {
 
   return NextResponse.json({
     weekId,
-    questions: questions.map((q) => ({
-      id: q.id,
-      question: q.question,
-      options: q.options,
-      correct: q.options.indexOf(q.correctAnswer),
-    })),
+    questions: await Promise.all(
+      questions.map(async (q) => ({
+        id: q.id,
+        question: q.question,
+        options: q.options,
+        correct: q.options.indexOf(await getEffectiveAnswer(q.id)),
+      }))
+    ),
   });
 }

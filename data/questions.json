@@ -1,212 +1,338 @@
 [
   {
     "id": "q01",
-    "question": "Which planet is known as the Red Planet?",
-    "options": ["Mars", "Venus", "Jupiter", "Mercury"],
-    "correctAnswer": "Mars"
+    "category": "crypto",
+    "question": "Will BTC close 2026 above $150,000?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q02",
-    "question": "What is the capital city of Australia?",
-    "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
-    "correctAnswer": "Canberra"
+    "category": "crypto",
+    "question": "Will SOL close this week in the green?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-08-16T23:59:00Z"
   },
   {
     "id": "q03",
-    "question": "Which element has the chemical symbol 'O'?",
-    "options": ["Gold", "Oxygen", "Osmium", "Oganesson"],
-    "correctAnswer": "Oxygen"
+    "category": "crypto",
+    "question": "Will ETH close 2026 above $7,500?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q04",
-    "question": "In which year did humans first land on the Moon?",
-    "options": ["1965", "1969", "1972", "1975"],
-    "correctAnswer": "1969"
+    "category": "crypto",
+    "question": "Will total crypto market cap cross $5T before 2027?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q05",
-    "question": "What does 'HTTP' stand for?",
-    "options": ["HyperText Transfer Protocol", "High-Tech Text Processing", "Hyperlink Transfer Process", "Home Tool Transfer Protocol"],
-    "correctAnswer": "HyperText Transfer Protocol"
+    "category": "crypto",
+    "question": "Will stablecoin supply exceed $400B by year-end?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q06",
-    "question": "Which fictional detective lives at 221B Baker Street?",
-    "options": ["Hercule Poirot", "Sherlock Holmes", "Miss Marple", "Columbo"],
-    "correctAnswer": "Sherlock Holmes"
+    "category": "crypto",
+    "question": "Will the SEC approve a spot SOL ETF in 2026?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q07",
-    "question": "How many continents are there on Earth?",
-    "options": ["5", "6", "7", "8"],
-    "correctAnswer": "7"
+    "category": "crypto",
+    "question": "Will Bitcoin dominance end 2026 above 55%?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "No",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q08",
-    "question": "Which language is the most spoken in the world by native speakers?",
-    "options": ["English", "Spanish", "Mandarin Chinese", "Hindi"],
-    "correctAnswer": "Mandarin Chinese"
+    "category": "crypto",
+    "question": "Will a memecoin still hold a top-10 spot on Jan 1, 2027?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q09",
-    "question": "What is the largest ocean on Earth?",
-    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
-    "correctAnswer": "Pacific"
+    "category": "worldcup",
+    "question": "Which team won the 2026 FIFA World Cup?",
+    "options": ["Spain", "Argentina", "France", "England"],
+    "correctAnswer": "Spain",
+    "resolvesAt": "2026-07-19T23:59:00Z"
   },
   {
     "id": "q10",
-    "question": "In chess, which piece can move in an L-shape?",
-    "options": ["Rook", "Bishop", "Knight", "Queen"],
-    "correctAnswer": "Knight"
+    "category": "worldcup",
+    "question": "Did the 2026 World Cup final go to extra time?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-07-19T23:59:00Z"
   },
   {
     "id": "q11",
-    "question": "What is the smallest prime number?",
-    "options": ["0", "1", "2", "3"],
-    "correctAnswer": "2"
+    "category": "worldcup",
+    "question": "Who scored the only goal of the 2026 World Cup final?",
+    "options": ["Ferran Torres", "Lamine Yamal", "Lionel Messi", "Nico Williams"],
+    "correctAnswer": "Ferran Torres",
+    "resolvesAt": "2026-07-19T23:59:00Z"
   },
   {
     "id": "q12",
-    "question": "Which artist painted the Mona Lisa?",
-    "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
-    "correctAnswer": "Leonardo da Vinci"
+    "category": "worldcup",
+    "question": "Which of these was NOT a 2026 World Cup semifinalist?",
+    "options": ["Brazil", "Spain", "France", "Argentina"],
+    "correctAnswer": "Brazil",
+    "resolvesAt": "2026-07-16T23:59:00Z"
   },
   {
     "id": "q13",
-    "question": "What does the 'www' in a web address stand for?",
-    "options": ["World Wide Web", "World Web Wizards", "Wide World Web", "Web World Wide"],
-    "correctAnswer": "World Wide Web"
+    "category": "worldcup",
+    "question": "Who did Spain beat 2-0 in the 2026 semifinal?",
+    "options": ["France", "England", "Belgium", "Norway"],
+    "correctAnswer": "France",
+    "resolvesAt": "2026-07-14T23:59:00Z"
   },
   {
     "id": "q14",
-    "question": "Which animal is known as the King of the Jungle?",
-    "options": ["Tiger", "Elephant", "Lion", "Gorilla"],
-    "correctAnswer": "Lion"
+    "category": "worldcup",
+    "question": "How many goals did Messi score at the 2026 World Cup?",
+    "options": ["6", "7", "8", "9"],
+    "correctAnswer": "8",
+    "resolvesAt": "2026-07-19T23:59:00Z"
   },
   {
     "id": "q15",
-    "question": "How many sides does a hexagon have?",
-    "options": ["4", "5", "6", "8"],
-    "correctAnswer": "6"
+    "category": "worldcup",
+    "question": "Was the 2026 World Cup final played at MetLife Stadium?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-07-19T23:59:00Z"
   },
   {
     "id": "q16",
-    "question": "Which country is home to the Great Barrier Reef?",
-    "options": ["Brazil", "India", "Australia", "South Africa"],
-    "correctAnswer": "Australia"
+    "category": "worldcup",
+    "question": "Did Argentina win back-to-back World Cup titles?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "No",
+    "resolvesAt": "2026-07-19T23:59:00Z"
   },
   {
     "id": "q17",
-    "question": "What is the fastest land animal?",
-    "options": ["Lion", "Cheetah", "Horse", "Greyhound"],
-    "correctAnswer": "Cheetah"
+    "category": "worldcup",
+    "question": "Which team did Argentina beat 3-1 in the quarterfinals?",
+    "options": ["Switzerland", "Norway", "Belgium", "Colombia"],
+    "correctAnswer": "Switzerland",
+    "resolvesAt": "2026-07-12T23:59:00Z"
   },
   {
     "id": "q18",
-    "question": "Which planet has the most moons in our solar system?",
-    "options": ["Earth", "Mars", "Saturn", "Venus"],
-    "correctAnswer": "Saturn"
+    "category": "worldcup",
+    "question": "What is Messi's all-time World Cup goal tally now?",
+    "options": ["18", "21", "24", "26"],
+    "correctAnswer": "21",
+    "resolvesAt": "2026-07-19T23:59:00Z"
   },
   {
     "id": "q19",
-    "question": "What do bees collect from flowers to make honey?",
-    "options": ["Pollen", "Nectar", "Leaves", "Seeds"],
-    "correctAnswer": "Nectar"
+    "category": "sports",
+    "question": "Will the 2026 US Open men's champion be under 25?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-09-13T23:59:00Z"
   },
   {
     "id": "q20",
-    "question": "Which popular game features the iconic 'Mario' character?",
-    "options": ["Sonic", "Super Mario", "Zelda", "Tetris"],
-    "correctAnswer": "Super Mario"
+    "category": "sports",
+    "question": "Will the 2026 FedEx Cup champion be American?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-08-30T23:59:00Z"
   },
   {
     "id": "q21",
-    "question": "What is the currency of Japan?",
-    "options": ["Won", "Yuan", "Yen", "Ringgit"],
-    "correctAnswer": "Yen"
+    "category": "sports",
+    "question": "Will a Canadian team win the 2027 Stanley Cup?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "No",
+    "resolvesAt": "2027-06-30T23:59:00Z"
   },
   {
     "id": "q22",
-    "question": "Which fruit is known to keep doctors away, according to the old proverb?",
-    "options": ["Orange", "Banana", "Apple", "Grapes"],
-    "correctAnswer": "Apple"
+    "category": "sports",
+    "question": "Will Super Bowl LXI be won by a first-time champion?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "No",
+    "resolvesAt": "2027-02-14T23:59:00Z"
   },
   {
     "id": "q23",
-    "question": "What is the tallest mountain in the world above sea level?",
-    "options": ["K2", "Mount Kilimanjaro", "Mount Everest", "Denali"],
-    "correctAnswer": "Mount Everest"
+    "category": "sports",
+    "question": "Will the 2027 NBA champion come from the West?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2027-06-20T23:59:00Z"
   },
   {
     "id": "q24",
-    "question": "In which sport would you use a 'birdie'?",
-    "options": ["Tennis", "Cricket", "Golf", "Badminton"],
-    "correctAnswer": "Golf"
+    "category": "sports",
+    "question": "Will the 2026 World Series go to seven games?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "No",
+    "resolvesAt": "2026-11-05T23:59:00Z"
   },
   {
     "id": "q25",
-    "question": "Which ocean is the largest?",
-    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
-    "correctAnswer": "Pacific Ocean"
+    "category": "sports",
+    "question": "Will Islam Makhachev defend his UFC lightweight title before 2027?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q26",
-    "question": "What year did the first iPhone launch?",
-    "options": ["2005", "2007", "2009", "2011"],
-    "correctAnswer": "2007"
+    "category": "sports",
+    "question": "Will anyone break 9.80 in the men's 100m before 2027?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "No",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q27",
-    "question": "Which superpower does the character 'Superman' famously have?",
-    "options": ["Invisibility", "Flight", "Time travel", "Shapeshifting"],
-    "correctAnswer": "Flight"
+    "category": "sports",
+    "question": "Will the Chiefs make the 2026 NFL playoffs?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2027-01-10T23:59:00Z"
   },
   {
     "id": "q28",
-    "question": "What is the largest land mammal?",
-    "options": ["Rhinoceros", "Hippopotamus", "Elephant", "Giraffe"],
-    "correctAnswer": "Elephant"
+    "category": "macro",
+    "question": "Will the Fed hold rates steady at the September FOMC?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-09-16T19:00:00Z"
   },
   {
     "id": "q29",
-    "question": "Which gas do plants primarily absorb from the air?",
-    "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
-    "correctAnswer": "Carbon dioxide"
+    "category": "macro",
+    "question": "Will the August CPI print come in below 3.0% year over year?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-09-11T13:30:00Z"
   },
   {
     "id": "q30",
-    "question": "How many colors are there in a rainbow?",
-    "options": ["5", "6", "7", "8"],
-    "correctAnswer": "7"
+    "category": "macro",
+    "question": "Will the S&P 500 finish 2026 in the green?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q31",
-    "question": "Which of these is a programming language?",
-    "options": ["Cobra", "Python", "Lynx", "Lion"],
-    "correctAnswer": "Python"
+    "category": "macro",
+    "question": "Will gold set a new all-time high before 2027?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q32",
-    "question": "What is the study of celestial objects called?",
-    "options": ["Geology", "Astronomy", "Biology", "Meteorology"],
-    "correctAnswer": "Astronomy"
+    "category": "macro",
+    "question": "Will EUR/USD touch 1.20 before 2027?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q33",
-    "question": "Which social media platform is known by the letter 'X' today?",
-    "options": ["Facebook", "Instagram", "Twitter", "LinkedIn"],
-    "correctAnswer": "Twitter"
+    "category": "macro",
+    "question": "Will the Fed cut rates at the December FOMC?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-09T19:00:00Z"
   },
   {
     "id": "q34",
-    "question": "What is the hardest natural substance on Earth?",
-    "options": ["Gold", "Iron", "Diamond", "Quartz"],
-    "correctAnswer": "Diamond"
+    "category": "macro",
+    "question": "Will the US 10-year yield close 2026 above 4.5%?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "No",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   },
   {
     "id": "q35",
-    "question": "Which movie features the character 'Darth Vader'?",
-    "options": ["Star Wars", "Star Trek", "Guardians of the Galaxy", "Avatar"],
-    "correctAnswer": "Star Wars"
+    "category": "macro",
+    "question": "Will Brent crude average above $85 in Q4 2026?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "No",
+    "resolvesAt": "2026-12-31T23:59:00Z"
+  },
+  {
+    "id": "q36",
+    "category": "elections",
+    "question": "Will US midterm voter turnout exceed 50%?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-11-04T12:00:00Z"
+  },
+  {
+    "id": "q37",
+    "category": "elections",
+    "question": "Will at least one US Senate seat flip parties in the midterms?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-11-04T12:00:00Z"
+  },
+  {
+    "id": "q38",
+    "category": "elections",
+    "question": "Will any US Senate race be decided by under one percentage point?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-11-04T12:00:00Z"
+  },
+  {
+    "id": "q39",
+    "category": "elections",
+    "question": "Will North Korea conduct a long-range missile test before 2027?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-12-31T23:59:00Z"
+  },
+  {
+    "id": "q40",
+    "category": "elections",
+    "question": "Will COP31 end with a consensus final declaration?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-11-21T23:59:00Z"
+  },
+  {
+    "id": "q41",
+    "category": "elections",
+    "question": "Will the 2026 Nobel Peace Prize go to an organization?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "Yes",
+    "resolvesAt": "2026-10-09T12:00:00Z"
+  },
+  {
+    "id": "q42",
+    "category": "elections",
+    "question": "Will the UK hold a general election before 2027?",
+    "options": ["Yes", "No"],
+    "correctAnswer": "No",
+    "resolvesAt": "2026-12-31T23:59:00Z"
   }
 ]

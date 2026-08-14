@@ -196,4 +196,10 @@ export const KV = {
   leaderboardCount: (weekId: string) => client.zcard(`week:${weekId}:scores`),
 
   playedCount: (weekId: string) => client.scard(`week:${weekId}:played`),
+
+  getResolveAnswer: (questionId: string) =>
+    client.get<string>(`q:resolve:${questionId}`),
+
+  setResolveAnswer: (questionId: string, answer: string) =>
+    client.set(`q:resolve:${questionId}`, answer),
 };

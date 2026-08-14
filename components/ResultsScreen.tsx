@@ -38,7 +38,7 @@ export default function ResultsScreen({ username, result }: Props) {
   }, [baseUrl, username, result]);
 
   const shareUrl = useMemo(() => {
-    const text = `I scored ${result.score} in Mystery Predictor this week — rank #${result.rank} of ${result.totalPlayers}. Think you can out-predict me? #MysteryPredictor`;
+    const text = `You called it. Did the world agree? I scored ${result.score} in Mystery Predictor this week — rank #${result.rank} of ${result.totalPlayers}. Think you can out-predict the world? #MysteryPredictor`;
     const tweet = new URLSearchParams({ text, url: `${baseUrl}/` });
     return `https://twitter.com/intent/tweet?${tweet.toString()}`;
   }, [baseUrl, result]);

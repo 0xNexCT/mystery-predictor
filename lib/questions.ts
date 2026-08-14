@@ -1,10 +1,13 @@
 import questionsJson from "@/data/questions.json";
+import { KV } from "@/lib/db";
 
 export interface Question {
   id: string;
+  category: string;
   question: string;
   options: string[];
   correctAnswer: string;
+  resolvesAt: string;
 }
 
 export const QUESTIONS: Question[] = questionsJson as Question[];
@@ -12,6 +15,12 @@ export const QUESTIONS: Question[] = questionsJson as Question[];
 export const QUESTIONS_BY_ID = new Map(
   QUESTIONS.map((q) => [q.id, q] as const)
 );
+
+export async function getEffectiveAnswer(questionId: string): Promise<string> {
+  const q = QUESTIONS_BY_ID.get(questionId);
+  if (!q) return "";
+  return (await KV.getResolveAnswer(questionId)) ?? q.correctAnswer;
+}
 
 export const SESSION_SIZE = 10;
 
