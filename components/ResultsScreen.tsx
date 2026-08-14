@@ -38,7 +38,7 @@ export default function ResultsScreen({ username, result }: Props) {
   }, [baseUrl, username, result]);
 
   const shareUrl = useMemo(() => {
-    const text = `You called it. Did the world agree? I scored ${result.score} in Mystery Predictor this week — rank #${result.rank} of ${result.totalPlayers}. Think you can out-predict the world? #MysteryPredictor`;
+    const text = `You called it. Did the world agree? I scored ${result.score} in Mystery Predictor this week, rank #${result.rank} of ${result.totalPlayers}. Think you can out-predict the world? #MysteryPredictor`;
     const tweet = new URLSearchParams({ text, url: `${baseUrl}/` });
     return `https://twitter.com/intent/tweet?${tweet.toString()}`;
   }, [baseUrl, result]);
@@ -110,7 +110,7 @@ export default function ResultsScreen({ username, result }: Props) {
             Share on X
           </a>
           <p className="text-xs text-[var(--muted)]">
-            Download the card and attach it to your tweet — the link shares the
+            Download the card and attach it to your tweet. The link shares the
             game directly.
           </p>
           <div className="flex gap-3">
