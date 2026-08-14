@@ -35,6 +35,16 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <footer className="pb-6 text-center">
+          <a
+            href="https://x.com/0xNexCT"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-[var(--muted)] transition-colors hover:text-cyan-300"
+          >
+            Created by @0xNexCT
+          </a>
+        </footer>
       </body>
     </html>
   );
