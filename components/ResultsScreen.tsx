@@ -45,7 +45,7 @@ export default function ResultsScreen({ username, result }: Props) {
       rank: String(result.rank),
       weekId: result.weekId,
     });
-    const pageUrl = `${baseUrl}/share?${params.toString()}`;
+    const pageUrl = `${baseUrl}/s?${params.toString()}`;
     const text = `I scored ${result.score} in Mystery Predictor this week — rank #${result.rank} of ${result.totalPlayers}. Think you can out-predict me? #MysteryPredictor`;
     const tweet = new URLSearchParams({ text, url: pageUrl });
     return `https://twitter.com/intent/tweet?${tweet.toString()}`;
