@@ -25,7 +25,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 py-16 text-center">
+    <main className="relative z-10 flex h-full flex-col items-center justify-center px-6 py-8 text-center">
       <Stars />
 
       <div className="orb mb-10 h-32 w-32" />

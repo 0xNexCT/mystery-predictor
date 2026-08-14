@@ -32,10 +32,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} flex h-screen flex-col overflow-hidden antialiased`}
       >
-        {children}
-        <footer className="pb-6 text-center">
+        <div className="relative z-0 flex-1 min-h-0 overflow-hidden">
+          {children}
+        </div>
+        <footer className="shrink-0 pb-5 text-center">
           <a
             href="https://x.com/0xNexCT"
             target="_blank"

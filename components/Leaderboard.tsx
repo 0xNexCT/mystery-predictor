@@ -58,7 +58,7 @@ export default function Leaderboard() {
           </p>
         </div>
 
-        <ul className="divide-y divide-white/5">
+        <ul className="max-h-[52vh] divide-y divide-white/5 overflow-y-auto">
           {data.entries.length === 0 && (
             <li className="p-8 text-center text-[var(--muted)]">
               No scores yet. Be the first to be revealed.

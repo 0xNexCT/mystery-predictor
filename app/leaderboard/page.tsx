@@ -6,7 +6,7 @@ import Leaderboard from "@/components/Leaderboard";
 
 export default function LeaderboardPage() {
   return (
-    <main className="relative z-10 flex min-h-screen flex-col items-center px-6 py-16">
+    <main className="relative z-10 flex h-full flex-col items-center px-6 py-8">
       <Stars />
       <div className="mb-8 flex items-center gap-3">
         <Link href="/" className="text-sm text-[var(--muted)] hover:text-white">

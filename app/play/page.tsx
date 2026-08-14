@@ -83,7 +83,7 @@ export default function Play() {
 
   if (loading && questions.length === 0) {
     return (
-      <main className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6">
+      <main className="relative z-10 flex h-full flex-col items-center justify-center px-6">
         <Stars />
         <div className="orb mb-8 h-20 w-20 pulse-glow" />
         <p className="text-[var(--muted)]">Shuffling the unknown...</p>
@@ -93,7 +93,7 @@ export default function Play() {
 
   if (error) {
     return (
-      <main className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 text-center">
+      <main className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
         <Stars />
         <p className="mb-6 text-red-400">{error}</p>
         <Link href="/" className="btn-ghost">
@@ -104,7 +104,7 @@ export default function Play() {
   }
 
   return (
-    <main className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 py-16">
+    <main className="relative z-10 flex h-full flex-col items-center justify-center px-6 py-8">
       <Stars />
       <div className="mb-8 flex items-center gap-3">
         <Link
