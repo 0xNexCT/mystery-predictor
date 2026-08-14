@@ -38,10 +38,18 @@ export default function ResultsScreen({ username, result }: Props) {
   }, [baseUrl, username, result]);
 
   const shareUrl = useMemo(() => {
+    const params = new URLSearchParams({
+      username,
+      score: String(result.score),
+      streak: String(result.maxStreak),
+      rank: String(result.rank),
+      weekId: result.weekId,
+    });
+    const pageUrl = `${baseUrl}/share?${params.toString()}`;
     const text = `I scored ${result.score} in Mystery Predictor this week — rank #${result.rank} of ${result.totalPlayers}. Think you can out-predict me? #MysteryPredictor`;
-    const params = new URLSearchParams({ text, url: ogUrl });
-    return `https://twitter.com/intent/tweet?${params.toString()}`;
-  }, [result, ogUrl]);
+    const tweet = new URLSearchParams({ text, url: pageUrl });
+    return `https://twitter.com/intent/tweet?${tweet.toString()}`;
+  }, [baseUrl, username, result]);
 
   const accuracy = result.total
     ? Math.round((result.correct / result.total) * 100)
