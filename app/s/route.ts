@@ -13,7 +13,6 @@ export function GET(req: Request) {
 
   const qs = `username=${encodeURIComponent(username)}&score=${encodeURIComponent(score)}&streak=${encodeURIComponent(streak)}&rank=${encodeURIComponent(rank)}&weekId=${encodeURIComponent(weekId)}`;
   const imageUrl = `${base}/api/og?${qs}`;
-  const pageUrl = `${base}/s?${qs}`;
   const playUrl = `${base}/play`;
   const title = `Mystery Predictor — @${username} scored ${score}`;
   const description = `Rank #${rank} in week ${weekId}. Think you can out-predict me? #MysteryPredictor`;
@@ -32,12 +31,12 @@ export function GET(req: Request) {
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="Mystery Predictor share card" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="${pageUrl}" />
+<meta property="og:url" content="${playUrl}" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="${title}" />
 <meta name="twitter:description" content="${description}" />
 <meta name="twitter:image" content="${imageUrl}" />
-<meta name="twitter:url" content="${pageUrl}" />
+<meta name="twitter:url" content="${playUrl}" />
 <style>
   body { margin: 0; background: #05060f; color: #e7e9f8; font-family: system-ui, sans-serif; display: flex; min-height: 100vh; align-items: center; justify-content: center; text-align: center; }
   img { max-width: 90vw; border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); }
@@ -46,9 +45,9 @@ export function GET(req: Request) {
 </head>
 <body>
   <div>
-    <img src="${imageUrl}" width="1200" height="630" alt="Mystery Predictor share card" />
+    <a href="${playUrl}"><img src="${imageUrl}" width="1200" height="630" alt="Mystery Predictor share card" style="cursor:pointer;" /></a>
     <p>Score ${score} · Rank #${rank} · Week ${weekId}</p>
-    <p><a href="${playUrl}">Play Mystery Predictor</a></p>
+    <p><a href="${playUrl}" style="display:inline-block; padding:12px 28px; border-radius:9999px; background:linear-gradient(135deg,#a855f7,#22d3ee); color:#fff; font-weight:600;">Play Mystery Predictor</a></p>
   </div>
 </body>
 </html>`;
