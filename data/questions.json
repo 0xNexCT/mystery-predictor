@@ -1,0 +1,212 @@
+[
+  {
+    "id": "q01",
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Mars", "Venus", "Jupiter", "Mercury"],
+    "correctAnswer": "Mars"
+  },
+  {
+    "id": "q02",
+    "question": "What is the capital city of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "correctAnswer": "Canberra"
+  },
+  {
+    "id": "q03",
+    "question": "Which element has the chemical symbol 'O'?",
+    "options": ["Gold", "Oxygen", "Osmium", "Oganesson"],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "id": "q04",
+    "question": "In which year did humans first land on the Moon?",
+    "options": ["1965", "1969", "1972", "1975"],
+    "correctAnswer": "1969"
+  },
+  {
+    "id": "q05",
+    "question": "What does 'HTTP' stand for?",
+    "options": ["HyperText Transfer Protocol", "High-Tech Text Processing", "Hyperlink Transfer Process", "Home Tool Transfer Protocol"],
+    "correctAnswer": "HyperText Transfer Protocol"
+  },
+  {
+    "id": "q06",
+    "question": "Which fictional detective lives at 221B Baker Street?",
+    "options": ["Hercule Poirot", "Sherlock Holmes", "Miss Marple", "Columbo"],
+    "correctAnswer": "Sherlock Holmes"
+  },
+  {
+    "id": "q07",
+    "question": "How many continents are there on Earth?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "7"
+  },
+  {
+    "id": "q08",
+    "question": "Which language is the most spoken in the world by native speakers?",
+    "options": ["English", "Spanish", "Mandarin Chinese", "Hindi"],
+    "correctAnswer": "Mandarin Chinese"
+  },
+  {
+    "id": "q09",
+    "question": "What is the largest ocean on Earth?",
+    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+    "correctAnswer": "Pacific"
+  },
+  {
+    "id": "q10",
+    "question": "In chess, which piece can move in an L-shape?",
+    "options": ["Rook", "Bishop", "Knight", "Queen"],
+    "correctAnswer": "Knight"
+  },
+  {
+    "id": "q11",
+    "question": "What is the smallest prime number?",
+    "options": ["0", "1", "2", "3"],
+    "correctAnswer": "2"
+  },
+  {
+    "id": "q12",
+    "question": "Which artist painted the Mona Lisa?",
+    "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
+    "correctAnswer": "Leonardo da Vinci"
+  },
+  {
+    "id": "q13",
+    "question": "What does the 'www' in a web address stand for?",
+    "options": ["World Wide Web", "World Web Wizards", "Wide World Web", "Web World Wide"],
+    "correctAnswer": "World Wide Web"
+  },
+  {
+    "id": "q14",
+    "question": "Which animal is known as the King of the Jungle?",
+    "options": ["Tiger", "Elephant", "Lion", "Gorilla"],
+    "correctAnswer": "Lion"
+  },
+  {
+    "id": "q15",
+    "question": "How many sides does a hexagon have?",
+    "options": ["4", "5", "6", "8"],
+    "correctAnswer": "6"
+  },
+  {
+    "id": "q16",
+    "question": "Which country is home to the Great Barrier Reef?",
+    "options": ["Brazil", "India", "Australia", "South Africa"],
+    "correctAnswer": "Australia"
+  },
+  {
+    "id": "q17",
+    "question": "What is the fastest land animal?",
+    "options": ["Lion", "Cheetah", "Horse", "Greyhound"],
+    "correctAnswer": "Cheetah"
+  },
+  {
+    "id": "q18",
+    "question": "Which planet has the most moons in our solar system?",
+    "options": ["Earth", "Mars", "Saturn", "Venus"],
+    "correctAnswer": "Saturn"
+  },
+  {
+    "id": "q19",
+    "question": "What do bees collect from flowers to make honey?",
+    "options": ["Pollen", "Nectar", "Leaves", "Seeds"],
+    "correctAnswer": "Nectar"
+  },
+  {
+    "id": "q20",
+    "question": "Which popular game features the iconic 'Mario' character?",
+    "options": ["Sonic", "Super Mario", "Zelda", "Tetris"],
+    "correctAnswer": "Super Mario"
+  },
+  {
+    "id": "q21",
+    "question": "What is the currency of Japan?",
+    "options": ["Won", "Yuan", "Yen", "Ringgit"],
+    "correctAnswer": "Yen"
+  },
+  {
+    "id": "q22",
+    "question": "Which fruit is known to keep doctors away, according to the old proverb?",
+    "options": ["Orange", "Banana", "Apple", "Grapes"],
+    "correctAnswer": "Apple"
+  },
+  {
+    "id": "q23",
+    "question": "What is the tallest mountain in the world above sea level?",
+    "options": ["K2", "Mount Kilimanjaro", "Mount Everest", "Denali"],
+    "correctAnswer": "Mount Everest"
+  },
+  {
+    "id": "q24",
+    "question": "In which sport would you use a 'birdie'?",
+    "options": ["Tennis", "Cricket", "Golf", "Badminton"],
+    "correctAnswer": "Golf"
+  },
+  {
+    "id": "q25",
+    "question": "Which ocean is the largest?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "correctAnswer": "Pacific Ocean"
+  },
+  {
+    "id": "q26",
+    "question": "What year did the first iPhone launch?",
+    "options": ["2005", "2007", "2009", "2011"],
+    "correctAnswer": "2007"
+  },
+  {
+    "id": "q27",
+    "question": "Which superpower does the character 'Superman' famously have?",
+    "options": ["Invisibility", "Flight", "Time travel", "Shapeshifting"],
+    "correctAnswer": "Flight"
+  },
+  {
+    "id": "q28",
+    "question": "What is the largest land mammal?",
+    "options": ["Rhinoceros", "Hippopotamus", "Elephant", "Giraffe"],
+    "correctAnswer": "Elephant"
+  },
+  {
+    "id": "q29",
+    "question": "Which gas do plants primarily absorb from the air?",
+    "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "id": "q30",
+    "question": "How many colors are there in a rainbow?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "7"
+  },
+  {
+    "id": "q31",
+    "question": "Which of these is a programming language?",
+    "options": ["Cobra", "Python", "Lynx", "Lion"],
+    "correctAnswer": "Python"
+  },
+  {
+    "id": "q32",
+    "question": "What is the study of celestial objects called?",
+    "options": ["Geology", "Astronomy", "Biology", "Meteorology"],
+    "correctAnswer": "Astronomy"
+  },
+  {
+    "id": "q33",
+    "question": "Which social media platform is known by the letter 'X' today?",
+    "options": ["Facebook", "Instagram", "Twitter", "LinkedIn"],
+    "correctAnswer": "Twitter"
+  },
+  {
+    "id": "q34",
+    "question": "What is the hardest natural substance on Earth?",
+    "options": ["Gold", "Iron", "Diamond", "Quartz"],
+    "correctAnswer": "Diamond"
+  },
+  {
+    "id": "q35",
+    "question": "Which movie features the character 'Darth Vader'?",
+    "options": ["Star Wars", "Star Trek", "Guardians of the Galaxy", "Avatar"],
+    "correctAnswer": "Star Wars"
+  }
+]
